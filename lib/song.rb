@@ -13,15 +13,15 @@ class Song
   attr_accessor :name, :artist, :genre
   
   def self.count
-    puts @@count
+    @@count
   end
   
   def self.genres
-    puts @@genres
+    @@genres
   end
   
   def self.artists
-    puts @@artists
+    @@artists
   end
   
   # def self.genre_count
@@ -33,5 +33,9 @@ ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
 puts ninety_nine_problems.name
 puts ninety_nine_problems.artist
 puts ninety_nine_problems.genre
+
+puts Song.genres
+puts Song.count
+puts Song.artists
 
 
