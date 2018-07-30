@@ -41,5 +41,6 @@ picture_to_burn = Song.new("Picture to Burn", "Taylor Swift", "country")
 puts Song.genres
 puts Song.count
 puts Song.artists
+puts Song.genre_count
 
 
