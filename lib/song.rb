@@ -24,9 +24,9 @@ class Song
     @@artists = @@artists.uniq
   end
   
-  # def self.genre_count
+  def self.genre_count
       
-  # end
+  end
 end
 
 ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
