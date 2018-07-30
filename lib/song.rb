@@ -24,9 +24,14 @@ class Song
     @@artists
   end
   
-  def self.genre_count
+  # def self.genre_count
       
-  end
+  # end
 end
+
+ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
+ninety_nine_problems.name
+ninety_nine_problems.artist
+ninety_nine_problems.genre
 
 
