@@ -32,15 +32,15 @@ class Song
   # end
 end
 
-ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
-delicate = Song.new("Delicate", "Taylor Swift", "pop")
-undead = Song.new("Undead", "Hollywood Undead", "metal")
-smart_girls = Song.new("Smart Girls", "Weezer", "alternative")
-picture_to_burn = Song.new("Picture to Burn", "Taylor Swift", "country")
+# ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
+# delicate = Song.new("Delicate", "Taylor Swift", "pop")
+# undead = Song.new("Undead", "Hollywood Undead", "metal")
+# smart_girls = Song.new("Smart Girls", "Weezer", "alternative")
+# picture_to_burn = Song.new("Picture to Burn", "Taylor Swift", "country")
 
-puts Song.genres
-puts Song.count
-puts Song.artists
-puts Song.genre_count
+# puts Song.genres
+# puts Song.count
+# puts Song.artists
+# puts Song.genre_count
 
 
