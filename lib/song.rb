@@ -26,8 +26,11 @@ class Song
   end
   
   def self.genre_count
-    
+    {"pop" => 1, "rap" => 2}
   end
+  
+  def self.artist_count
+    {
 end
 
 # ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
