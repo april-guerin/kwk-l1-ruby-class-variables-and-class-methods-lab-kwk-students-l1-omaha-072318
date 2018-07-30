@@ -25,11 +25,11 @@ class Song
     @@artists = @@artists.uniq
   end
   
-  def self.genre_count
-      @@genres.each do |genre|
-        @@genre_count[genre, genre.count]
-      end
-  end
+  # def self.genre_count
+  #     @@genres.each do |genre|
+  #       @@genre_count[genre, genre.count]
+  #     end
+  # end
 end
 
 ninety_nine_problems = Song.new("99 Problems", "Jay-Z", "rap")
